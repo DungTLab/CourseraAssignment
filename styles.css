@@ -139,3 +139,16 @@ p {
     width: 20%;
   }
 }
+.grid img:nth-child(odd) {
+  border-radius: 20px;
+  border-color: #00bcd4;
+}
+.grid img:nth-child(even) {
+  border-radius: 5px;
+  border-color: #ff9800;
+}
+.grid img, .flex img {
+  border: 2px solid #ccc;
+  padding: 5px;
+  border-radius: 8px;
+}
