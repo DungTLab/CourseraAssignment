@@ -152,3 +152,25 @@ p {
   padding: 5px;
   border-radius: 8px;
 }
+
+#image {
+    width: 100%;
+    height: 400px; 
+    line-height: 400px;
+    text-align: center; 
+    background-color: #8e68ff; 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 150%;
+    border: 5px solid black;
+    margin: 20px auto;
+}
+
+.preview {
+    width: 150px;
+    margin: 10px;
+    border: 2px solid grey;
+    cursor: pointer;
+}
